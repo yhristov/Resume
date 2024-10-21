@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Github, Linkedin, Mail, MapPin, Moon, Sun } from "lucide-react"
 import { Toggle } from "@/components/ui/toggle"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import Link from 'next/link'
 
 const translations = {
   en: {
@@ -24,9 +25,19 @@ const translations = {
         company: "Cappiche",
         period: "Jun 2018 - Present",
         achievements: [
-          "Skills: Adobe XD, Figma, React.js, Vue.js",
-          "Responsible for quality and progress of total projects",
-          "Continuously learning new technologies and industry standards"
+          "Developed and launched customized websites for various clients and agencies.",
+          "Provided emergency digital solutions, leveraging platforms such as Netlify, DecapCMS, HubSpot, WordPress.",
+          "Enhanced website performance and user experience through modern web development practices."
+        ]
+      },
+      {
+        title: "Web Front-end & SIM Developer",
+        company: "BNP Paribas Fortis",
+        period: "Jun 2018 - Present",
+        achievements: [
+          "Managed and executed marketing automation projects, including personalized email campaigns and online experiences, using Selligent Interactive Marketing.",
+          "Delivered exceptional UI/UX with responsive designs using HTML, CSS, JavaScript, Vue.js, and jQuery.",
+          "Collaborated closely with internal stakeholders to ensure optimal project outcomes."
         ]
       },
       {
@@ -34,8 +45,9 @@ const translations = {
         company: "VRT",
         period: "Apr 2017 - Jun 2018",
         achievements: [
-          "Developed front-end solutions for various campaigns",
-          "Collaborated with cross-functional teams to deliver high-quality web experiences"
+          "Created engaging campaign web pages for events, contests, and surveys.",
+          "Integrated automated email/SMS communication for marketing efforts.",
+          "Developed solutions to drive audience engagement across multiple platforms."
         ]
       },
       {
@@ -62,8 +74,8 @@ const translations = {
         company: "SBS Belgium",
         period: "Oct 2012 - Apr 2014",
         achievements: [
-          "Developed interactive media solutions for SBS Belgium",
-          "Contributed to enhancing user engagement through innovative web technologies"
+          "Developed custom Drupal modules for vier.be and vijf.be, ensuring scalability and maintainability.",
+          "Designed and implemented new pages to enhance user engagement and site functionality."
         ]
       },
       {
@@ -92,9 +104,19 @@ const translations = {
         company: "Cappiche",
         period: "Juin 2018 - Présent",
         achievements: [
-          "Compétences : Adobe XD, Figma, React.js, Vue.js",
-          "Responsable de la qualité et de l'avancement des projets",
-          "Apprentissage continu des nouvelles technologies et des normes de l'industrie"
+          "Développé et lancé des sites web personnalisés pour divers clients et agences.",
+          "Fourni des solutions numériques d'urgence, en utilisant des plateformes telles que Netlify, DecapCMS, HubSpot, WordPress.",
+          "Amélioré les performances des sites web et l'expérience utilisateur grâce aux pratiques modernes de développement web."
+        ]
+      },
+      {
+        title: "Développeur Front-end Web & SIM",
+        company: "BNP Paribas Fortis",
+        period: "Juin 2018 - Présent",
+        achievements: [
+          "Géré et exécuté des projets d'automatisation marketing, y compris des campagnes d'e-mails personnalisées et des expériences en ligne, en utilisant Selligent Interactive Marketing.",
+          "Livré une UI/UX exceptionnelle avec des designs responsifs en utilisant HTML, CSS, JavaScript, Vue.js et jQuery.",
+          "Collaboré étroitement avec les parties prenantes internes pour assurer des résultats optimaux des projets."
         ]
       },
       {
@@ -102,8 +124,9 @@ const translations = {
         company: "VRT",
         period: "Avr 2017 - Juin 2018",
         achievements: [
-          "Développement de solutions front-end pour diverses campagnes",
-          "Collaboration avec des équipes pluridisciplinaires pour fournir des expériences web de haute qualité"
+          "Créé des pages web de campagne engageantes pour des événements, concours et sondages.",
+          "Intégré des communications automatisées par e-mail/SMS pour les efforts marketing.",
+          "Développé des solutions pour stimuler l'engagement du public sur plusieurs plateformes."
         ]
       },
       {
@@ -111,8 +134,8 @@ const translations = {
         company: "UniPartners IT - Financial - Engineering Services",
         period: "Fév 2015 - Avr 2018",
         achievements: [
-          "Fourniture de services de conseil IT à divers clients",
-          "Spécialisation dans le développement web et les solutions d'ingénierie"
+          "Fourni des services de conseil IT à divers clients.",
+          "Spécialisé dans le développement web et les solutions d'ingénierie."
         ]
       },
       {
@@ -120,9 +143,9 @@ const translations = {
         company: "BNP Paribas Fortis",
         period: "Fév 2015 - Avr 2017",
         achievements: [
-          "Développement d'e-mails marketing automatisés et de campagnes en ligne",
-          "Accent mis sur une excellente expérience utilisateur et un design responsive",
-          "Technologies utilisées : SIM, HTML, CSS, Javascript et jQuery"
+          "Développé des e-mails marketing automatisés et des campagnes en ligne.",
+          "Mis l'accent sur une excellente expérience utilisateur et un design responsive attrayant.",
+          "Utilisé les technologies : SIM, HTML, CSS, Javascript et jQuery."
         ]
       },
       {
@@ -130,8 +153,8 @@ const translations = {
         company: "SBS Belgium",
         period: "Oct 2012 - Avr 2014",
         achievements: [
-          "Développement de solutions médias interactives pour SBS Belgium",
-          "Contribution à l'amélioration de l'engagement des utilisateurs grâce à des technologies web innovantes"
+          "Développé des modules Drupal personnalisés pour vier.be et vijf.be, assurant l'évolutivité et la maintenabilité.",
+          "Conçu et mis en œuvre de nouvelles pages pour améliorer l'engagement des utilisateurs et la fonctionnalité du site."
         ]
       },
       {
@@ -139,8 +162,8 @@ const translations = {
         company: "Bose Corporation",
         period: "Juil 2012 - Nov 2012",
         achievements: [
-          "Assistance dans les projets de développement web pour Bose Corporation",
-          "Acquisition d'une expérience précieuse dans les pratiques de développement web en entreprise"
+          "Assisté dans des projets de développement web pour Bose Corporation.",
+          "Acquis une expérience précieuse dans les pratiques de développement web en entreprise."
         ]
       }
     ],
@@ -160,9 +183,19 @@ const translations = {
         company: "Cappiche",
         period: "Jun 2018 - Heden",
         achievements: [
-          "Vaardigheden: Adobe XD, Figma, React.js, Vue.js",
-          "Verantwoordelijk voor kwaliteit en voortgang van totale projecten",
-          "Continu leren van nieuwe technologieën en industriestandaarden"
+          "Ontwikkeld en gelanceerd van aangepaste websites voor verschillende klanten en bureaus.",
+          "Noodoplossingen geleverd met platforms zoals Netlify, DecapCMS, HubSpot, WordPress.",
+          "Verbeterde websiteprestaties en gebruikerservaring door moderne webontwikkelingspraktijken."
+        ]
+      },
+      {
+        title: "Web Front-end & SIM Ontwikkelaar",
+        company: "BNP Paribas Fortis",
+        period: "Jun 2018 - Heden",
+        achievements: [
+          "Beheerd en uitgevoerd van marketingautomatiseringsprojecten, waaronder gepersonaliseerde e-mailcampagnes en online ervaringen, met behulp van Selligent Interactive Marketing.",
+          "Uitzonderlijke UI/UX geleverd met responsieve ontwerpen met behulp van HTML, CSS, JavaScript, Vue.js en jQuery.",
+          "Nauw samengewerkt met interne belanghebbenden om optimale projectresultaten te waarborgen."
         ]
       },
       {
@@ -170,8 +203,9 @@ const translations = {
         company: "VRT",
         period: "Apr 2017 - Jun 2018",
         achievements: [
-          "Ontwikkelde front-end oplossingen voor verschillende campagnes",
-          "Samengewerkt met multidisciplinaire teams om hoogwaardige web-ervaringen te leveren"
+          "Boeiende campagnewebpagina's gemaakt voor evenementen, wedstrijden en enquêtes.",
+          "Geautomatiseerde e-mail/SMS-communicatie geïntegreerd voor marketinginspanningen.",
+          "Oplossingen ontwikkeld om publieksengagement over meerdere platforms te stimuleren."
         ]
       },
       {
@@ -179,8 +213,8 @@ const translations = {
         company: "UniPartners IT - Financial - Engineering Services",
         period: "Feb 2015 - Apr 2018",
         achievements: [
-          "Leverde IT-adviesdiensten aan verschillende klanten",
-          "Gespecialiseerd in webontwikkeling en engineering-oplossingen"
+          "IT-adviesdiensten geleverd aan verschillende klanten.",
+          "Gespecialiseerd in webontwikkeling en engineeringoplossingen."
         ]
       },
       {
@@ -188,9 +222,9 @@ const translations = {
         company: "BNP Paribas Fortis",
         period: "Feb 2015 - Apr 2017",
         achievements: [
-          "Ontwikkelde geautomatiseerde marketing e-mails en online campagnes",
-          "Gericht op geweldige gebruikerservaring en mooi responsief ontwerp",
-          "Gebruikte technologieën: SIM, HTML, CSS, Javascript en jQuery"
+          "Geautomatiseerde marketing e-mails en online campagnes ontwikkeld.",
+          "Gericht op geweldige gebruikerservaring en mooi responsief ontwerp.",
+          "Gebruikte technologieën: SIM, HTML, CSS, Javascript en jQuery."
         ]
       },
       {
@@ -198,8 +232,8 @@ const translations = {
         company: "SBS Belgium",
         period: "Okt 2012 - Apr 2014",
         achievements: [
-          "Ontwikkelde interactieve mediaoplossingen voor SBS Belgium",
-          "Droeg bij aan het verbeteren van gebruikersbetrokkenheid door innovatieve webtechnologieën"
+          "Aangepaste Drupal-modules ontwikkeld voor vier.be en vijf.be, met focus op schaalbaarheid en onderhoudbaarheid.",
+          "Nieuwe pagina's ontworpen en geïmplementeerd om gebruikersbetrokkenheid en sitefunctionaliteit te verbeteren."
         ]
       },
       {
@@ -207,18 +241,20 @@ const translations = {
         company: "Bose Corporation",
         period: "Jul 2012 - Nov 2012",
         achievements: [
-          "Assisteerde bij webontwikkelingsprojecten voor Bose Corporation",
-          "Deed waardevolle ervaring op in zakelijke webontwikkelingspraktijken"
+          "Geassisteerd bij webontwikkelingsprojecten voor Bose Corporation.",
+          "Waardevolle ervaring opgedaan in zakelijke webontwikkelingspraktijken."
         ]
       }
     ],
   },
 }
 
-export function OnlineResume() {
+export function OnlineResume({ initialLanguage = "en" }: { initialLanguage?: "en" | "fr" | "nl" }) {
   const [isDarkMode, setIsDarkMode] = React.useState(false)
-  const [language, setLanguage] = React.useState<"en" | "fr" | "nl">("en")
-  const t = translations[language]
+  const [language, setLanguage] = React.useState<"en" | "fr" | "nl">(
+    initialLanguage in translations ? initialLanguage : "en"
+  )
+  const t = translations[language] || translations.en // Fallback to English if language is not found
 
   return (
     <div className={`min-h-screen ${isDarkMode ? 'bg-black text-gray-200' : 'bg-stone-50 text-stone-800'}`}>
@@ -231,7 +267,10 @@ export function OnlineResume() {
           >
             {isDarkMode ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
           </Toggle>
-          <Select value={language} onValueChange={(value: "en" | "fr" | "nl") => setLanguage(value)}>
+          <Select value={language} onValueChange={(value: "en" | "fr" | "nl") => {
+            setLanguage(value)
+            window.location.href = `/${value}`
+          }}>
             <SelectTrigger className="w-[120px]">
               <SelectValue placeholder="Language" />
             </SelectTrigger>
@@ -287,20 +326,22 @@ export function OnlineResume() {
               <div className="space-y-4">
                 {t.jobs.map((job, index) => (
                   <div key={index} className="flex">
-                    <div className="w-1/4 pr-4">
+                    <div className="w-1/4 pr-4 flex-shrink-0">
                       <div className="relative h-full">
-                        <div className={`absolute top-1 left-1/2 w-0.5 h-full ${isDarkMode ? 'bg-slate-800' : 'bg-stone-200'} -translate-x-1/2`}></div>
+                        <div className={`absolute top-0 left-1/2 w-0.5 h-full ${isDarkMode ? 'bg-gray-700' : 'bg-stone-200'} -translate-x-1/2`}></div>
                         <div className={`absolute top-1 left-1/2 w-3 h-3 rounded-full ${isDarkMode ? 'bg-blue-500' : 'bg-blue-400'} -translate-x-1/2 transition-all duration-300 hover:scale-125`}></div>
                       </div>
                       <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-stone-500'} mt-1`}>{job.period}</p>
                     </div>
-                    <Card className={`w-3/4 ${isDarkMode ? 'bg-slate-900 hover:bg-slate-800' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
+                    <Card className={`flex-grow ${isDarkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
                       <CardContent className="p-4">
                         <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : ''}`}>{job.title}</h3>
                         <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mb-2`}>{job.company}</p>
-                        <ul className={`list-disc list-inside text-sm ${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>
+                        <ul className={`list-disc pl-5 text-sm ${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>
                           {job.achievements.map((achievement, i) => (
-                            <li key={i} className={`transition-colors duration-300 ${isDarkMode ? 'hover:text-blue-300' : 'hover:text-blue-700'}`}>{achievement}</li>
+                            <li key={i} className={`transition-colors duration-300 ${isDarkMode ? 'hover:text-blue-300' : 'hover:text-blue-700'}`}>
+                              {achievement}
+                            </li>
                           ))}
                         </ul>
                       </CardContent>

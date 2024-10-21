@@ -1,7 +1,5 @@
-import { OnlineResume } from "../components/online-resume";
+import { redirect } from 'next/navigation'
 
 export default function Home() {
-  return (
-    <OnlineResume />
-  );
+  redirect('/en')
 }
