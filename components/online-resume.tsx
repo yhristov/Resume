@@ -7,7 +7,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Github, Linkedin, Mail, MapPin, Moon, Sun } from "lucide-react"
 import { Toggle } from "@/components/ui/toggle"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import Link from 'next/link'
 
 const translations = {
   en: {
