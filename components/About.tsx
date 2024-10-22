@@ -1,7 +1,10 @@
 import React from 'react';
+import { translations } from "@/translations"
+
+type TranslationType = typeof translations.en;
 
 interface AboutProps {
-  t: any;
+  t: TranslationType;
   isDarkMode: boolean;
 }
 
