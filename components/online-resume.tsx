@@ -131,7 +131,7 @@ const translations = {
       {
         title: "Consultant IT",
         company: "UniPartners IT - Financial - Engineering Services",
-        period: "Fév 2015 - Avr 2018",
+        period: "Fv 2015 - Avr 2018",
         achievements: [
           "Fourni des services de conseil IT à divers clients.",
           "Spécialisé dans le développement web et les solutions d'ingénierie."
@@ -322,13 +322,14 @@ export function OnlineResume({ initialLanguage = "en" }: { initialLanguage?: "en
 
             <section className="mb-8">
               <h2 className={`text-2xl font-semibold mb-4 ${isDarkMode ? 'text-white' : ''}`}>{t.experience}</h2>
-              <div className="space-y-4">
+              <div className="space-y-4 relative pl-4 sm:pl-0">
+                <div className={`absolute top-0 left-0 sm:left-[140px] w-0.5 h-full ${isDarkMode ? 'bg-gray-700' : 'bg-stone-200'}`}></div>
                 {t.jobs.map((job, index) => (
                   <div key={index} className="flex flex-col sm:flex-row">
-                    <div className="w-full sm:w-1/4 pr-4 mb-2 sm:mb-0">
-                      <div className="hidden sm:block relative h-full">
-                        <div className={`absolute top-0 left-1/2 w-0.5 h-full ${isDarkMode ? 'bg-gray-700' : 'bg-stone-200'} -translate-x-1/2`}></div>
-                        <div className={`absolute top-1 left-1/2 w-3 h-3 rounded-full ${isDarkMode ? 'bg-blue-500' : 'bg-blue-400'} -translate-x-1/2 transition-all duration-300 hover:scale-125`}></div>
+                    <div className="w-full sm:w-[140px] mb-2 sm:mb-0 relative">
+                      <div className="hidden sm:flex items-center h-full">
+                        <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-stone-500'} whitespace-nowrap overflow-hidden text-ellipsis pr-3`}>{job.period}</p>
+                        <div className={`absolute right-[-6px] w-3 h-3 rounded-full ${isDarkMode ? 'bg-blue-500' : 'bg-blue-400'} transition-all duration-300 hover:scale-125`}></div>
                       </div>
                       <Badge 
                         variant="secondary" 
@@ -336,9 +337,8 @@ export function OnlineResume({ initialLanguage = "en" }: { initialLanguage?: "en
                       >
                         {job.period}
                       </Badge>
-                      <p className={`hidden sm:block text-sm ${isDarkMode ? 'text-gray-400' : 'text-stone-500'} mt-1`}>{job.period}</p>
                     </div>
-                    <Card className={`w-full sm:w-3/4 ${isDarkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
+                    <Card className={`w-full sm:w-[calc(100%-160px)] sm:ml-5 ${isDarkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
                       <CardContent className="p-4">
                         <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : ''}`}>{job.title}</h3>
                         <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mb-2`}>{job.company}</p>
