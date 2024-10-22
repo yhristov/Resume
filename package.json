@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iconify/icons-bi": "^1.2.19",
+    "@iconify/react": "^5.0.2",
     "@radix-ui/react-avatar": "^1.1.1",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-select": "^2.1.2",
