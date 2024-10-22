@@ -284,7 +284,7 @@ export function OnlineResume({ initialLanguage = "en" }: { initialLanguage?: "en
           <CardContent className="p-6">
             <header className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 mb-8">
               <Avatar className={`w-32 h-32 border-4 ${isDarkMode ? 'border-gray-700' : 'border-stone-200'} transition-transform duration-300 hover:scale-105`}>
-                <AvatarImage src="/placeholder.svg?height=128&width=128" alt={t.name} />
+                <AvatarImage src="/img/profile.png" alt={t.name} />
                 <AvatarFallback>YH</AvatarFallback>
               </Avatar>
               <div className="text-center sm:text-left space-y-2">
@@ -324,15 +324,21 @@ export function OnlineResume({ initialLanguage = "en" }: { initialLanguage?: "en
               <h2 className={`text-2xl font-semibold mb-4 ${isDarkMode ? 'text-white' : ''}`}>{t.experience}</h2>
               <div className="space-y-4">
                 {t.jobs.map((job, index) => (
-                  <div key={index} className="flex">
-                    <div className="w-1/4 pr-4 flex-shrink-0">
-                      <div className="relative h-full">
+                  <div key={index} className="flex flex-col sm:flex-row">
+                    <div className="w-full sm:w-1/4 pr-4 mb-2 sm:mb-0">
+                      <div className="hidden sm:block relative h-full">
                         <div className={`absolute top-0 left-1/2 w-0.5 h-full ${isDarkMode ? 'bg-gray-700' : 'bg-stone-200'} -translate-x-1/2`}></div>
                         <div className={`absolute top-1 left-1/2 w-3 h-3 rounded-full ${isDarkMode ? 'bg-blue-500' : 'bg-blue-400'} -translate-x-1/2 transition-all duration-300 hover:scale-125`}></div>
                       </div>
-                      <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-stone-500'} mt-1`}>{job.period}</p>
+                      <Badge 
+                        variant="secondary" 
+                        className={`sm:hidden mb-2 ${isDarkMode ? 'bg-gray-800 text-gray-200' : 'bg-stone-200 text-stone-700'}`}
+                      >
+                        {job.period}
+                      </Badge>
+                      <p className={`hidden sm:block text-sm ${isDarkMode ? 'text-gray-400' : 'text-stone-500'} mt-1`}>{job.period}</p>
                     </div>
-                    <Card className={`flex-grow ${isDarkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
+                    <Card className={`w-full sm:w-3/4 ${isDarkMode ? 'bg-gray-800 hover:bg-gray-700' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
                       <CardContent className="p-4">
                         <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : ''}`}>{job.title}</h3>
                         <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mb-2`}>{job.company}</p>
