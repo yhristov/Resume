@@ -160,7 +160,7 @@ export const translations = {
   nl: {
     name: "Youri Hristov",
     title: "Freelance Webontwikkelaar",
-    summary: "Brede kennis van webontwikkeling en webdesign. Ik werk bij voorkeur in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben eager om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
+    summary: "Brede kennis van webontwikkeling en webdesign. Ik werk bij voorkeur in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben bereid om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
     interests: "Mijn interesses buiten het werk zijn fitness, wandelen, hardlopen en sociale activiteiten.",
     experience: "Werkervaring",
     education: "Opleiding",
@@ -172,7 +172,7 @@ export const translations = {
         company: "Cappiche",
         period: "Jun 2018 - Heden",
         achievements: [
-          "Ontwikkeld en gelanceerd van aangepaste websites voor verschillende klanten en bureaus.",
+          "Ontwikkeling en lancering van websites voor verschillende klanten en bureaus.",
           "Noodoplossingen geleverd met platforms zoals Netlify, DecapCMS, HubSpot, WordPress.",
           "Verbeterde websiteprestaties en gebruikerservaring door moderne webontwikkelingspraktijken."
         ]
@@ -183,7 +183,7 @@ export const translations = {
         period: "Jun 2018 - Heden",
         achievements: [
           "Beheerd en uitgevoerd van marketingautomatiseringsprojecten, waaronder gepersonaliseerde e-mailcampagnes en online ervaringen, met behulp van Selligent Interactive Marketing.",
-          "Uitzonderlijke UI/UX geleverd met responsieve ontwerpen met behulp van HTML, CSS, JavaScript, Vue.js en jQuery.",
+          "UI/UX opgeleverd met responsieve ontwerpen met behulp van HTML, CSS, JavaScript, Vue.js en jQuery.",
           "Nauw samengewerkt met interne belanghebbenden om optimale projectresultaten te waarborgen."
         ]
       },
@@ -192,8 +192,8 @@ export const translations = {
         company: "VRT",
         period: "Apr 2017 - Jun 2018",
         achievements: [
-          "Boeiende campagnewebpagina's gemaakt voor evenementen, wedstrijden en enquêtes.",
-          "Geautomatiseerde e-mail/SMS-communicatie geïntegreerd voor marketinginspanningen.",
+          "Boeiende campagnewebpagina's ontwikkeld voor evenementen, wedstrijden en enquêtes.",
+          "Geautomatiseerde e-mail/SMS-communicatie geïntegreerd voor marketing campagnes.",
           "Oplossingen ontwikkeld om publieksengagement over meerdere platforms te stimuleren."
         ]
       },
@@ -231,7 +231,7 @@ export const translations = {
         period: "Jul 2012 - Nov 2012",
         achievements: [
           "Geassisteerd bij webontwikkelingsprojecten voor Bose Corporation.",
-          "Waardevolle ervaring opgedaan in zakelijke webontwikkelingspraktijken."
+          "Waardevolle ervaring opgedaan in zakelijke webontwikkelings."
         ]
       }
     ],
