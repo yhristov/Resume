@@ -14,9 +14,9 @@ export const Skills: React.FC<SkillsProps> = ({ t, isDarkMode }) => (
     <h2 className={`text-2xl font-semibold mb-2 ${isDarkMode ? 'text-white' : ''}`}>{t.skills}</h2>
     <div className="flex flex-wrap gap-2">
       {[
-        "React.js", "Vue.js", "HTML", "CSS", "JavaScript", "jQuery", 
-        "Adobe XD", "Figma", "SIM", "Responsive Design", "Web Development",
-        "Front-end Development", "UI/UX Design", "Project Management", "Scrum"
+        "React.js", "Vue.js", "HTML", "CSS", "JavaScript", "SQL", "Node.js","RESTful API", "Git", "jQuery", 
+        "Adobe XD", "Figma", "Selligent", "Responsive Design", "Web Development"
+        , "UI/UX Design", "Project Management", "Scrum" , "JIRA"
       ].map((skill) => (
         <Badge 
           key={skill} 
