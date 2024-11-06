@@ -1,6 +1,5 @@
 import React from 'react';
 import { translations } from "@/translations"
-import { useTranslation } from 'react-i18next';
 
 type TranslationType = typeof translations.en;
 
