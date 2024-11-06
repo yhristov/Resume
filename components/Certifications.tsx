@@ -16,7 +16,7 @@ export const Certifications: React.FC<CertificationsProps> = ({ t, isDarkMode })
       <CardContent className="p-4">
         <div className="space-y-2">
           <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>Business Management - VTI</p>
-          <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>PROFESSIONAL SCRUM MASTER 1 - Scrum.org</p>
+          <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>Professional Scrum Master 1 - Scrum.org</p>
         </div>
       </CardContent>
     </Card>

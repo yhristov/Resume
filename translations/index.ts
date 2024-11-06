@@ -77,6 +77,8 @@ export const translations = {
         ]
       }
     ],
+    about: "About me",
+    seeMore: "See more",
   },
   fr: {
     name: "Youri Hristov",
@@ -156,12 +158,14 @@ export const translations = {
         ]
       }
     ],
+    about: "À propos de moi",
+    seeMore: "Voir plus",
   },
   nl: {
     name: "Youri Hristov",
     title: "Freelance Webontwikkelaar",
-    summary: "Brede kennis van webontwikkeling en webdesign. Ik werk bij voorkeur in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben bereid om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
-    interests: "Mijn interesses buiten het werk zijn fitness, wandelen, hardlopen en sociale activiteiten.",
+    summary: "Brede kennis van webontwikkeling en webdesign. Bij voorkeur werk ik in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben bereid om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
+    interests: "In mijn vrije tijd houd ik van fitness, wandelen, lopen en sociale activiteiten.",
     experience: "Werkervaring",
     education: "Opleiding",
     skills: "Vaardigheden",
@@ -235,6 +239,8 @@ export const translations = {
         ]
       }
     ],
+    about: "Over mij",
+    seeMore: "Zie meer",
   }
 };
 

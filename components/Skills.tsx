@@ -21,7 +21,7 @@ export const Skills: React.FC<SkillsProps> = ({ t, isDarkMode }) => (
         <Badge 
           key={skill} 
           variant="secondary" 
-          className={`${isDarkMode ? 'bg-gray-800 text-gray-200 hover:bg-slate-800' : 'bg-stone-100 text-stone-700 hover:bg-blue-100 hover:text-blue-700'} transition-all duration-300 hover:scale-105`}
+          className={`${isDarkMode ? 'bg-gray-800 text-gray-200 hover:bg-slate-800' : 'bg-stone-100 text-stone-700 hover:bg-blue-100 hover:text-blue-700'}transition-colors duration-300`}
         >
           {skill}
         </Badge>
