@@ -22,7 +22,11 @@ export const Header: React.FC<HeaderProps> = ({ t, isDarkMode }) => {
   return (
     <header className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8 mb-8">
       <Avatar className={`w-32 h-32 border-4 ${isDarkMode ? 'border-gray-700' : 'border-stone-200'} transition-transform duration-300 hover:scale-105`}>
-        <AvatarImage src="/img/profile.png" alt={t.name} />
+        <AvatarImage 
+          src="/img/profile.png" 
+          alt={t.name}
+          className="object-cover"
+        />
         <AvatarFallback>YH</AvatarFallback>
       </Avatar>
       <div className="text-center sm:text-left space-y-2">

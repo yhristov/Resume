@@ -84,12 +84,14 @@ export const translations = {
         ]
       }
     ],
+    about: "About me",
+    seeMore: "See more",
   },
   fr: {
     name: "Youri Hristov",
     title: "Développeur Web Freelance",
-    summary: "Large connaissance du développement et de la conception web. Je préfère travailler dans un environnement basé sur des projets où je suis responsable de la qualité et de l'avancement du projet total. Je suis désireux d'apprendre de nouvelles technologies et j'ai une bonne connaissance de base des normes actuelles de l'industrie.",
-    interests: "Mes intérêts en dehors du travail sont le fitness, la randonnée, la course à pied et les activités sociales.",
+    summary: "Développeur web avec une solide expertise en développement et conception de sites web, je privilégie les environnements orientés projets où je peux prendre en charge la qualité et l'avancement du projet. Motivé par l'apprentissage continu, je reste à jour avec les nouvelles technologies et les normes de l'industrie, apportant une vision actuelle et des compétences techniques approfondies. ",
+    interests: "En dehors de ma passion pour la technologie, j’apprécie le fitness, la randonnée, la course à pied et les activités sociales, qui contribuent à mon équilibre personnel et renforcent mon esprit.",
     experience: "Expérience Professionnelle",
     education: "Formation",
     skills: "Compétences",
@@ -101,9 +103,9 @@ export const translations = {
         companyUrl: "https://cappiche.be",
         period: "Juin 2018 - Présent",
         achievements: [
-          "Développé et lancé des sites web personnalisés pour divers clients et agences.",
-          "Fourni des solutions numériques d'urgence, en utilisant des plateformes telles que Netlify, DecapCMS, HubSpot, WordPress.",
-          "Amélioré les performances des sites web et l'expérience utilisateur grâce aux pratiques modernes de développement web."
+          "Conception et lancement de sites web personnalisés pour divers clients et agences.",
+          "Solutions numériques d’urgence fournies en utilisant Netlify, DecapCMS, HubSpot et WordPress.",
+          "Optimisation des performances de sites web et de l’expérience utilisateur grâce à des pratiques modernes de développement web."
         ]
       },
       {
@@ -112,9 +114,9 @@ export const translations = {
         companyUrl: "https://www.bnpparibasfortis.com",
         period: "Juin 2018 - Présent",
         achievements: [
-          "Géré et exécuté des projets d'automatisation marketing, y compris des campagnes d'e-mails personnalisées et des expériences en ligne, en utilisant Selligent Interactive Marketing.",
-          "Livré une UI/UX exceptionnelle avec des designs responsifs en utilisant HTML, CSS, JavaScript, Vue.js et jQuery.",
-          "Collaboré étroitement avec les parties prenantes internes pour assurer des résultats optimaux des projets."
+          "Gestion et exécution de projets d'automatisation marketing, incluant des campagnes d'e-mails personnalisées et des expériences en ligne avec Selligent Interactive Marketing.",
+          "Création d'interfaces utilisateur (UI) et expérience utilisateur (UX) de haute qualité, avec des designs responsifs en HTML, CSS, JavaScript, Vue.js et jQuery.",
+          "Collaboration avec les différentes intervenants pour assurer l’atteinte des objectifs du projet."
         ]
       },
       {
@@ -122,9 +124,9 @@ export const translations = {
         company: "VRT",
         period: "Avr 2017 - Juin 2018",
         achievements: [
-          "Créé des pages web de campagne engageantes pour des événements, concours et sondages.",
-          "Intégré des communications automatisées par e-mail/SMS pour les efforts marketing.",
-          "Développé des solutions pour stimuler l'engagement du public sur plusieurs plateformes."
+          "Création de pages web de campagne attractives pour événements, concours et sondages.",
+          "Intégration d’e-mail/SMS automatisés dans le cadre d’amélioration marketing.",
+          "Développement de solutions multi-plateformes pour stimuler l’engagement du public."
         ]
       },
       {
@@ -132,8 +134,8 @@ export const translations = {
         company: "UniPartners IT - Financial - Engineering Services",
         period: "Fév 2015 - Avr 2018",
         achievements: [
-          "Fourni des services de conseil IT à divers clients.",
-          "Spécialisé dans le développement web et les solutions d'ingénierie."
+          "Prestation de services de conseils IT pour une clientèle variée.",
+          "Spécialisation en développement web et solutions d’ingénierie."
         ]
       },
       {
@@ -141,9 +143,9 @@ export const translations = {
         company: "BNP Paribas Fortis",
         period: "Fév 2015 - Avr 2017",
         achievements: [
-          "Développé des e-mails marketing automatisés et des campagnes en ligne.",
-          "Mis l'accent sur une excellente expérience utilisateur et un design responsive attrayant.",
-          "Utilisé les technologies : SIM, HTML, CSS, Javascript et jQuery."
+          "Développement d’e-mails marketing automatisés et de campagnes en ligne.",
+          "Attention particulière portée à une expérience utilisateur optimale et un design responsive attractif.",
+          "Utilisation des technologies : Selligent Interactive Marketing (SIM), HTML, CSS, JavaScript et jQuery."
         ]
       },
       {
@@ -151,8 +153,8 @@ export const translations = {
         company: "SBS Belgium",
         period: "Oct 2012 - Avr 2014",
         achievements: [
-          "Développé des modules Drupal personnalisés pour vier.be et vijf.be, assurant l'évolutivité et la maintenabilité.",
-          "Conçu et mis en œuvre de nouvelles pages pour améliorer l'engagement des utilisateurs et la fonctionnalité du site."
+          "Développement de modules Drupal personnalisés pour les sites vier.be et vijf.be, garantissant l'évolutivité et la maintenabilité.",
+          "Conception et mise en œuvre de nouvelles pages pour améliorer l'engagement des utilisateurs et la fonctionnalité des sites."
         ]
       },
       {
@@ -160,17 +162,19 @@ export const translations = {
         company: "Bose Corporation",
         period: "Juil 2012 - Nov 2012",
         achievements: [
-          "Assisté dans des projets de développement web pour Bose Corporation.",
-          "Acquis une expérience précieuse dans les pratiques de développement web en entreprise."
+          "Contribution à divers projets de développement web pour Bose Corporation.",
+          "Expérience enrichissante dans les pratiques de développement web en entreprise."
         ]
       }
     ],
+    about: "À propos de moi",
+    seeMore: "Voir plus",
   },
   nl: {
     name: "Youri Hristov",
-    title: "Freelance webontwikkelaar",
-    summary: "Brede kennis van webontwikkeling en webdesign. Ik werk bij voorkeur in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben eager om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
-    interests: "Mijn interesses buiten het werk zijn fitness, wandelen, hardlopen en sociale activiteiten.",
+    title: "Freelance Webontwikkelaar",
+    summary: "Brede kennis van webontwikkeling en webdesign. Bij voorkeur werk ik in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben bereid om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
+    interests: "In mijn vrije tijd houd ik van fitness, wandelen, lopen en sociale activiteiten.",
     experience: "Werkervaring",
     education: "Opleiding",
     skills: "Vaardigheden",
@@ -182,7 +186,7 @@ export const translations = {
         companyUrl: "https://cappiche.be",
         period: "jun 2018 - heden",
         achievements: [
-          "Ontwikkeld en gelanceerd van aangepaste websites voor verschillende klanten en bureaus.",
+          "Ontwikkeling en lancering van websites voor verschillende klanten en bureaus.",
           "Noodoplossingen geleverd met platforms zoals Netlify, DecapCMS, HubSpot, WordPress.",
           "Verbeterde websiteprestaties en gebruikerservaring door moderne webontwikkelingspraktijken."
         ]
@@ -194,7 +198,7 @@ export const translations = {
         period: "jun 2018 - heden",
         achievements: [
           "Beheerd en uitgevoerd van marketingautomatiseringsprojecten, waaronder gepersonaliseerde e-mailcampagnes en online ervaringen, met behulp van Selligent Interactive Marketing.",
-          "Uitzonderlijke UI/UX geleverd met responsieve ontwerpen met behulp van HTML, CSS, JavaScript, Vue.js en jQuery.",
+          "UI/UX opgeleverd met responsieve ontwerpen met behulp van HTML, CSS, JavaScript, Vue.js en jQuery.",
           "Nauw samengewerkt met interne belanghebbenden om optimale projectresultaten te waarborgen."
         ]
       },
@@ -203,8 +207,8 @@ export const translations = {
         company: "VRT",
         period: "apr 2017 - jun 2018",
         achievements: [
-          "Boeiende campagnewebpagina's gemaakt voor evenementen, wedstrijden en enquêtes.",
-          "Geautomatiseerde e-mail/SMS-communicatie geïntegreerd voor marketinginspanningen.",
+          "Boeiende campagnewebpagina's ontwikkeld voor evenementen, wedstrijden en enquêtes.",
+          "Geautomatiseerde e-mail/SMS-communicatie geïntegreerd voor marketing campagnes.",
           "Oplossingen ontwikkeld om publieksengagement over meerdere platforms te stimuleren."
         ]
       },
@@ -242,10 +246,12 @@ export const translations = {
         period: "jul 2012 - nov 2012",
         achievements: [
           "Geassisteerd bij webontwikkelingsprojecten voor Bose Corporation.",
-          "Waardevolle ervaring opgedaan in zakelijke webontwikkelingspraktijken."
+          "Waardevolle ervaring opgedaan in zakelijke webontwikkelings."
         ]
       }
     ],
+    about: "Over mij",
+    seeMore: "Zie meer",
   }
 };
 
