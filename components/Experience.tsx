@@ -3,8 +3,6 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { translations } from "@/translations"
 
-type TranslationType = typeof translations.en;
-
 interface ExperienceProps {
   t: {
     experience: string;
