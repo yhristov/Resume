@@ -6,7 +6,16 @@ import { translations } from "@/translations"
 type TranslationType = typeof translations.en;
 
 interface ExperienceProps {
-  t: TranslationType;
+  t: {
+    experience: string;
+    jobs: {
+      title: string;
+      company: string;
+      companyUrl?: string;
+      period: string;
+      achievements: string[];
+    }[];
+  };
   isDarkMode: boolean;
 }
 
