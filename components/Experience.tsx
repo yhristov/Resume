@@ -1,19 +1,10 @@
 import React, { useState } from 'react';
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
+import { Translation, Job } from "@/types"
 
 interface ExperienceProps {
-  t: {
-    experience: string;
-    seeMore: string;
-    jobs: {
-      title: string;
-      company: string;
-      companyUrl?: string;
-      period: string;
-      achievements: string[];
-    }[];
-  };
+  t: Translation;
   isDarkMode: boolean;
 }
 
@@ -29,7 +20,7 @@ export const Experience: React.FC<ExperienceProps> = ({ t, isDarkMode }) => {
       <h2 className={`text-2xl font-semibold mb-4 ${isDarkMode ? 'text-white' : ''}`}>{t.experience}</h2>
       <div className="space-y-4 relative">
         <div className={`hidden sm:block absolute top-0 left-0 sm:left-[140px] w-0.5 h-full ${isDarkMode ? 'bg-slate-700' : 'bg-stone-200'}`}></div>
-        {visibleJobs.map((job, index: number) => (
+        {visibleJobs.map((job: Job, index: number) => (
           <div key={index} className="flex flex-col sm:flex-row">
             <div className="w-full sm:w-[140px] mb-2 sm:mb-0 relative">
               <div className="hidden sm:flex items-center h-full">
@@ -48,8 +39,19 @@ export const Experience: React.FC<ExperienceProps> = ({ t, isDarkMode }) => {
             <Card className={`w-full sm:w-[calc(100%-160px)] sm:ml-5 ${isDarkMode ? 'bg-slate-900 hover:bg-slate-800' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
               <CardContent className="p-4">
                 <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : ''}`}>{job.title}</h3>
-                <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mb-2`}>{job.company}</p>
-                <ul className={`list-disc pl-5 text-sm ${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>
+                {job.companyUrl ? (
+                  <a 
+                    href={job.companyUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className={`${isDarkMode ? 'text-gray-300 hover:text-blue-300' : 'text-stone-600 hover:text-blue-600'} transition-colors duration-300`}
+                  >
+                    {job.company}
+                  </a>
+                ) : (
+                  <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>{job.company}</p>
+                )}
+                <ul className={`list-disc pl-5 text-sm ${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mt-2`}>
                   {job.achievements.map((achievement: string, i: number) => (
                     <li key={i}>{achievement}</li>
                   ))}

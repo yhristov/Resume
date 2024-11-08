@@ -1,11 +1,9 @@
 import React from 'react';
 import { Badge } from "@/components/ui/badge"
-import { translations } from "@/translations"
-
-type TranslationType = typeof translations.en;
+import { Translation } from "@/types"
 
 interface SkillsProps {
-  t: TranslationType;
+  t: Translation;
   isDarkMode: boolean;
 }
 

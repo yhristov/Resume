@@ -1,11 +1,9 @@
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card"
-import { translations } from "@/translations"
-
-type TranslationType = typeof translations.en;
+import { Translation } from "@/types"
 
 interface EducationProps {
-  t: TranslationType;
+  t: Translation;
   isDarkMode: boolean;
 }
 

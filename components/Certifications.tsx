@@ -1,11 +1,9 @@
 import React from 'react';
-import { translations } from "@/translations"
 import { Card, CardContent } from "@/components/ui/card"
-
-type TranslationType = typeof translations.en;
+import { Translation } from "@/types"
 
 interface CertificationsProps {
-  t: TranslationType;
+  t: Translation;
   isDarkMode: boolean;
 }
 

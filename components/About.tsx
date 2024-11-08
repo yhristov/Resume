@@ -1,10 +1,8 @@
 import React from 'react';
-import { translations } from "@/translations"
-
-type TranslationType = typeof translations.en;
+import { Translation } from "@/types"
 
 interface AboutProps {
-  t: TranslationType;
+  t: Translation;
   isDarkMode: boolean;
 }
 

@@ -1,4 +1,6 @@
-export const translations = {
+import { Translation } from "@/types"
+
+export const translations: Record<string, Translation> = {
   en: {
     name: "Youri Hristov",
     title: "Freelance Web Developer",

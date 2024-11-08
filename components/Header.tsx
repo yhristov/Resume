@@ -2,12 +2,10 @@ import React from 'react';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Github, Linkedin, Mail, MapPin } from "lucide-react"
-import { translations } from "@/translations"
-
-type TranslationType = typeof translations.en;
+import { Translation } from "@/types"
 
 interface HeaderProps {
-  t: TranslationType;
+  t: Translation;
   isDarkMode: boolean;
 }
 
