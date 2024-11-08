@@ -6,6 +6,7 @@ import { translations } from "@/translations"
 interface ExperienceProps {
   t: {
     experience: string;
+    seeMore: string;
     jobs: {
       title: string;
       company: string;
