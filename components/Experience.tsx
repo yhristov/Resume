@@ -13,6 +13,7 @@ interface ExperienceProps {
 interface Job {
   title: string;
   company: string;
+  companyUrl?: string;
   period: string;
   achievements: string[];
 }
@@ -39,8 +40,19 @@ export const Experience: React.FC<ExperienceProps> = ({ t, isDarkMode }) => (
           <Card className={`w-full sm:w-[calc(100%-160px)] sm:ml-5 ${isDarkMode ? 'bg-slate-900 hover:bg-slate-800' : 'bg-stone-50 hover:bg-blue-50'} transition-all duration-300 hover:shadow-md`}>
             <CardContent className="p-4">
               <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : ''}`}>{job.title}</h3>
-              <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mb-2`}>{job.company}</p>
-              <ul className={`list-disc pl-5 text-sm ${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>
+              {job.companyUrl ? (
+                <a 
+                  href={job.companyUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className={`${isDarkMode ? 'text-gray-300 hover:text-blue-300' : 'text-stone-600 hover:text-blue-600'} transition-colors duration-300`}
+                >
+                  {job.company}
+                </a>
+              ) : (
+                <p className={`${isDarkMode ? 'text-gray-300' : 'text-stone-600'}`}>{job.company}</p>
+              )}
+              <ul className={`list-disc pl-5 text-sm ${isDarkMode ? 'text-gray-300' : 'text-stone-600'} mt-2`}>
                 {job.achievements.map((achievement: string, i: number) => (
                   <li key={i} className={`transition-colors duration-300 ${isDarkMode ? 'hover:text-blue-300' : 'hover:text-blue-700'}`}>
                     {achievement}

@@ -12,6 +12,7 @@ export const translations = {
       {
         title: "Freelance Web Developer",
         company: "Cappiche",
+        companyUrl: "https://cappiche.be",
         period: "Jun 2018 - Present",
         achievements: [
           "Developed and launched customized websites for various clients and agencies.",
@@ -20,8 +21,9 @@ export const translations = {
         ]
       },
       {
-        title: "Web Front-end & SIM Developer",
+        title: "Web Front-end & SIM eveloper",
         company: "BNP Paribas Fortis",
+        companyUrl: "https://www.bnpparibasfortis.be",
         period: "Jun 2018 - Present",
         achievements: [
           "Managed and executed marketing automation projects, including personalized email campaigns and online experiences, using Selligent Interactive Marketing.",
@@ -32,6 +34,7 @@ export const translations = {
       {
         title: "Web Front-end & Campaign Developer",
         company: "VRT",
+        companyUrl: "https://www.vrt.be",
         period: "Apr 2017 - Jun 2018",
         achievements: [
           "Created engaging campaign web pages for events, contests, and surveys.",
@@ -42,6 +45,7 @@ export const translations = {
       {
         title: "IT Consultant",
         company: "UniPartners IT - Financial - Engineering Services",
+        companyUrl: "https://www.unipartners.be",
         period: "Feb 2015 - Apr 2018",
         achievements: [
           "Provided IT consultancy services to various clients",
@@ -51,6 +55,7 @@ export const translations = {
       {
         title: "Web Front-end & SIM Developer",
         company: "BNP Paribas Fortis",
+        companyUrl: "https://www.bnpparibasfortis.be",
         period: "Feb 2015 - Apr 2017",
         achievements: [
           "Developed automated marketing emails and online campaigns",
@@ -61,6 +66,7 @@ export const translations = {
       {
         title: "Interactive Media Developer",
         company: "SBS Belgium",
+        companyUrl: "https://www.playmedia.be/",
         period: "Oct 2012 - Apr 2014",
         achievements: [
           "Developed custom Drupal modules for vier.be and vijf.be, ensuring scalability and maintainability.",
@@ -70,6 +76,7 @@ export const translations = {
       {
         title: "Junior Web Developer",
         company: "Bose Corporation",
+        companyUrl: "https://www.bose.com",
         period: "Jul 2012 - Nov 2012",
         achievements: [
           "Assisted in web development projects for Bose Corporation",
@@ -91,6 +98,7 @@ export const translations = {
       {
         title: "Développeur Web Freelance",
         company: "Cappiche",
+        companyUrl: "https://cappiche.be",
         period: "Juin 2018 - Présent",
         achievements: [
           "Développé et lancé des sites web personnalisés pour divers clients et agences.",
@@ -101,6 +109,7 @@ export const translations = {
       {
         title: "Développeur Front-end Web & SIM",
         company: "BNP Paribas Fortis",
+        companyUrl: "https://www.bnpparibasfortis.com",
         period: "Juin 2018 - Présent",
         achievements: [
           "Géré et exécuté des projets d'automatisation marketing, y compris des campagnes d'e-mails personnalisées et des expériences en ligne, en utilisant Selligent Interactive Marketing.",
@@ -159,18 +168,19 @@ export const translations = {
   },
   nl: {
     name: "Youri Hristov",
-    title: "Freelance Webontwikkelaar",
+    title: "Freelance webontwikkelaar",
     summary: "Brede kennis van webontwikkeling en webdesign. Ik werk bij voorkeur in een projectmatige omgeving waar ik verantwoordelijk ben voor de kwaliteit en voortgang van het totale project. Ik ben eager om nieuwe technologieën te leren en heb een goede basiskennis van de huidige industriestandaarden.",
     interests: "Mijn interesses buiten het werk zijn fitness, wandelen, hardlopen en sociale activiteiten.",
     experience: "Werkervaring",
     education: "Opleiding",
     skills: "Vaardigheden",
-    certifications: "Certificeringen",
+    certifications: "Certificaten",
     jobs: [
       {
-        title: "Freelance Webontwikkelaar",
+        title: "Freelance webontwikkelaar",
         company: "Cappiche",
-        period: "Jun 2018 - Heden",
+        companyUrl: "https://cappiche.be",
+        period: "jun 2018 - heden",
         achievements: [
           "Ontwikkeld en gelanceerd van aangepaste websites voor verschillende klanten en bureaus.",
           "Noodoplossingen geleverd met platforms zoals Netlify, DecapCMS, HubSpot, WordPress.",
@@ -178,9 +188,10 @@ export const translations = {
         ]
       },
       {
-        title: "Web Front-end & SIM Ontwikkelaar",
+        title: "Web Front-end & SIM ontwikkelaar",
         company: "BNP Paribas Fortis",
-        period: "Jun 2018 - Heden",
+        companyUrl: "https://www.bnpparibasfortis.com",
+        period: "jun 2018 - heden",
         achievements: [
           "Beheerd en uitgevoerd van marketingautomatiseringsprojecten, waaronder gepersonaliseerde e-mailcampagnes en online ervaringen, met behulp van Selligent Interactive Marketing.",
           "Uitzonderlijke UI/UX geleverd met responsieve ontwerpen met behulp van HTML, CSS, JavaScript, Vue.js en jQuery.",
@@ -188,9 +199,9 @@ export const translations = {
         ]
       },
       {
-        title: "Web Front-end & Campagne Ontwikkelaar",
+        title: "Web Front-end & campagne ontwikkelaar",
         company: "VRT",
-        period: "Apr 2017 - Jun 2018",
+        period: "apr 2017 - jun 2018",
         achievements: [
           "Boeiende campagnewebpagina's gemaakt voor evenementen, wedstrijden en enquêtes.",
           "Geautomatiseerde e-mail/SMS-communicatie geïntegreerd voor marketinginspanningen.",
@@ -200,16 +211,16 @@ export const translations = {
       {
         title: "IT Consultant",
         company: "UniPartners IT - Financial - Engineering Services",
-        period: "Feb 2015 - Apr 2018",
+        period: "feb 2015 - apr 2018",
         achievements: [
           "IT-adviesdiensten geleverd aan verschillende klanten.",
           "Gespecialiseerd in webontwikkeling en engineeringoplossingen."
         ]
       },
       {
-        title: "Web Front-end & SIM Ontwikkelaar",
+        title: "Web Front-end & SIM ontwikkelaar",
         company: "BNP Paribas Fortis",
-        period: "Feb 2015 - Apr 2017",
+        period: "feb 2015 - apr 2017",
         achievements: [
           "Geautomatiseerde marketing e-mails en online campagnes ontwikkeld.",
           "Gericht op geweldige gebruikerservaring en mooi responsief ontwerp.",
@@ -217,18 +228,18 @@ export const translations = {
         ]
       },
       {
-        title: "Interactieve Media Ontwikkelaar",
+        title: "Interactieve media ontwikkelaar",
         company: "SBS Belgium",
-        period: "Okt 2012 - Apr 2014",
+        period: "okt 2012 - apr 2014",
         achievements: [
           "Aangepaste Drupal-modules ontwikkeld voor vier.be en vijf.be, met focus op schaalbaarheid en onderhoudbaarheid.",
           "Nieuwe pagina's ontworpen en geïmplementeerd om gebruikersbetrokkenheid en sitefunctionaliteit te verbeteren."
         ]
       },
       {
-        title: "Junior Webontwikkelaar",
+        title: "Junior webontwikkelaar",
         company: "Bose Corporation",
-        period: "Jul 2012 - Nov 2012",
+        period: "jul 2012 - nov 2012",
         achievements: [
           "Geassisteerd bij webontwikkelingsprojecten voor Bose Corporation.",
           "Waardevolle ervaring opgedaan in zakelijke webontwikkelingspraktijken."
