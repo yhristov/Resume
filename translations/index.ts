@@ -23,7 +23,7 @@ export const translations: Record<string, Translation> = {
         ]
       },
       {
-        title: "Web Front-end & SIM eveloper",
+        title: "Web Front-end & SIM Developer",
         company: "BNP Paribas Fortis",
         companyUrl: "https://www.bnpparibasfortis.be",
         period: "Jun 2018 - Present",
