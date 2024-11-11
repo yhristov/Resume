@@ -17,7 +17,7 @@ export const translations: Record<string, Translation> = {
         companyUrl: "https://cappiche.be",
         period: "Jun 2018 - Present",
         achievements: [
-          "Developed and launched customized websites for various clients and agencies.",
+          "Developed and launched customized websites for various clients and agencies including Teamleader, Jakobus en Corneel, and Hamster Cleaning.",
           "Provided emergency digital solutions, leveraging platforms such as Netlify, DecapCMS, HubSpot, WordPress.",
           "Enhanced website performance and user experience through modern web development practices."
         ]
@@ -105,9 +105,9 @@ export const translations: Record<string, Translation> = {
         companyUrl: "https://cappiche.be",
         period: "Juin 2018 - Présent",
         achievements: [
-          "Conception et lancement de sites web personnalisés pour divers clients et agences.",
-          "Solutions numériques d’urgence fournies en utilisant Netlify, DecapCMS, HubSpot et WordPress.",
-          "Optimisation des performances de sites web et de l’expérience utilisateur grâce à des pratiques modernes de développement web."
+          "Conception et lancement de sites web personnalisés pour divers clients et agences, notamment Teamleader, Jakobus en Corneel, et Hamster Cleaning.",
+          "Solutions numériques d'urgence fournies en utilisant Netlify, DecapCMS, HubSpot et WordPress.",
+          "Optimisation des performances de sites web et de l'expérience utilisateur grâce à des pratiques modernes de développement web."
         ]
       },
       {
@@ -188,7 +188,7 @@ export const translations: Record<string, Translation> = {
         companyUrl: "https://cappiche.be",
         period: "jun 2018 - heden",
         achievements: [
-          "Ontwikkeling en lancering van websites voor verschillende klanten en bureaus.",
+          "Ontwikkeling en lancering van websites voor verschillende klanten en bureaus, waaronder Teamleader, Jakobus en Corneel, en Hamster Cleaning.",
           "Noodoplossingen geleverd met platforms zoals Netlify, DecapCMS, HubSpot, WordPress.",
           "Verbeterde websiteprestaties en gebruikerservaring door moderne webontwikkelingspraktijken."
         ]
